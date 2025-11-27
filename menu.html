@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Our Menu - Fork & Knife</title>
+    <meta name="title" content="Our Menu - Fork & Knife">
+    <meta name="description"
+        content="Explore our delicious menu categories - Soups, Quick Bites, Salads, Pizzas and more">
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+
+    <!-- 
+    - mobile app interface css
+  -->
+    <link rel="stylesheet" href="./assets/css/mobile-app.css">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">Fork & Knife</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+        <div class="container">
+
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">
+                    1-4, PPS Colony, Anna Nagar, Coimbatore 641004
+                </span>
+            </address>
+
+            <div class="separator"></div>
+
+            <div class="topbar-item item-2">
+                <div class="icon">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">Daily : 8.00 am to 10.00 pm</span>
+            </div>
+
+            <a href="tel:+919585555486" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">+91 95855 55486</span>
+            </a>
+
+            <div class="separator"></div>
+
+            <a href="mailto:fork&knife@gmail.com" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">fork&knife@gmail.com</span>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="index.html" class="logo">
+                <img src="./assets/images/f&k.png" width="160" height="50" alt="Fork & Knife - Home">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="index.html" class="logo">
+                    <img src="./assets/images/f&k.png" width="160" height="50" alt="Fork & Knife - Home">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html#home" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="menu.html" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+                            <span class="span">Menus</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html#about" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Our Chefs</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Contact</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visit Us</p>
+
+                    <address class="body-4">
+                        1-4, PPS Colony, Anna Nagar, Coimbatore 641004
+                    </address>
+
+                    <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+                    <a href="mailto:fork&knife@gmail.com" class="body-4 sidebar-link">fork&knife@gmail.com</a>
+
+                    <div class="separator"></div>
+
+                    <p class="contact-label">Booking Request</p>
+
+                    <a href="tel:+91 95855 55486" class="body-1 contact-number hover-underline">
+                        +91 95855 55486
+                    </a>
+                </div>
+
+            </nav>
+
+            <a href="index.html#" class="btn btn-secondary">
+                <span class="text text-1">Find A Table</span>
+                <span class="text text-2" aria-hidden="true">Find A Table</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+    <main>
+        <article>
+
+            <!-- 
+        - #MENU HERO
+      -->
+
+            <section class="menu-hero">
+                <div class="menu-hero-bg">
+                    <img src="./assets/images/menu-bg.jpg" alt="" class="img-cover">
+                </div>
+                <div class="menu-hero-content">
+                    <p class="section-subtitle label-2">Delightful Experience</p>
+                    <h1 class="display-1 hero-title">Our Menu</h1>
+                    <p class="body-2 hero-text">
+                        Explore our carefully curated selection of authentic flavors
+                    </p>
+                </div>
+            </section>
+
+            <!-- 
+        - #MENU CATEGORIES
+      -->
+
+            <section class="section menu-section" aria-label="menu categories">
+                <div class="container">
+
+                    <p class="section-subtitle text-center label-2">Special Selection</p>
+                    <h2 class="headline-1 section-title text-center">Menu Categories</h2>
+
+                    <!-- Category Filter -->
+                    <div class="category-filter">
+                        <button class="filter-btn active" data-filter="all">
+                            <span>All Items</span>
+                        </button>
+                        <button class="filter-btn" data-filter="soup">
+                            <span>Soups</span>
+                        </button>
+                        <button class="filter-btn" data-filter="quickbites">
+                            <span>Quick Bites</span>
+                        </button>
+                        <button class="filter-btn" data-filter="salad">
+                            <span>Salads</span>
+                        </button>
+                        <button class="filter-btn" data-filter="breads">
+                            <span>Breads</span>
+                        </button>
+                        <button class="filter-btn" data-filter="pizza">
+                            <span>Pizza</span>
+                        </button>
+                    </div>
+
+                    <!-- SOUP CATEGORY -->
+                    <div class="menu-category" data-category="soup">
+                        <div class="category-header">
+                            <h3 class="headline-2">
+                                <ion-icon name="restaurant-outline"></ion-icon>
+                                <span>Soup</span>
+                            </h3>
+                            <div class="category-badge" style="background: #FF6B6B;">Hot & Fresh</div>
+                        </div>
+
+                        <ul class="menu-grid">
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">HOT & SOUR</h4>
+                                        <p class="card-text label-1">A spicy soup with fresh vegetables and bold
+                                            flavors.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹150</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">TOMATO SOUP</h4>
+                                        <p class="card-text label-1">Served with fresh tomatoes, herbs, aromatic herbs,
+                                            and finished with cream.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹100</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">SWEET CORN SOUP</h4>
+                                        <p class="card-text label-1">A silky white soup made with fresh, sweet corn.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹130</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CREAMY MUSHROOM SOUP</h4>
+                                        <p class="card-text label-1">A rich, silky soup made with fresh, earthy
+                                            mushrooms, herbs, cream, and butter.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹180</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHICKEN HOT & SOUR</h4>
+                                        <p class="card-text label-1">A spicy soup with chicken and hearty flavors.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹180</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">ZUPPA DI BROCCOLI</h4>
+                                        <p class="card-text label-1">Creamy soup blended with carrots, combining
+                                            flavors.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹170</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- QUICK BITES CATEGORY -->
+                    <div class="menu-category" data-category="quickbites">
+                        <div class="category-header">
+                            <h3 class="headline-2">
+                                <ion-icon name="fast-food-outline"></ion-icon>
+                                <span>Quick Bites</span>
+                            </h3>
+                            <div class="category-badge" style="background: #FF69B4;">Popular</div>
+                        </div>
+
+                        <ul class="menu-grid">
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">FRENCH FRIES</h4>
+                                        <p class="card-text label-1">Crispy French fries served with a pinch of salt.
+                                        </p>
+                                    </div>
+                                    <span class="menu-price title-2">₹120</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">PERI - PERI FRIES 🌶️</h4>
+                                        <p class="card-text label-1">Crispy potato fries tossed with spicy peri peri
+                                            seasoning.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹150</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHEESY FRIES</h4>
+                                        <p class="card-text label-1">Deliciously crispy potato fries with melted cheese
+                                            on top.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹160</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHEESY NACHOS 🧀</h4>
+                                        <p class="card-text label-1">Crispy tortilla chips style with melted cheese on
+                                            top.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹230</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CRISPY BABY CORN</h4>
+                                        <p class="card-text label-1">Crispy fried potato slices dip like chips.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹200</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHEESY CHICKEN NACHOS</h4>
+                                        <p class="card-text label-1">Crispy tortilla chips loaded with melted cheese,
+                                            spicy chicken, jalapeños, and fresh salsa.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹200</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHICKEN KEBAB / FRY 🍗</h4>
+                                        <p class="card-text label-1">Flavourful chicken chunks cooked to perfection with
+                                            spices.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹230</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">PALO DI POTATO</h4>
+                                        <p class="card-text label-1">Crispy baked potato slices tossed with cheese and
+                                            flavorful seasoning.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹230</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">VEG QUESADILLA</h4>
+                                        <p class="card-text label-1">Soft tortilla filled with melted cheese and sautéed
+                                            veggies, grilled to perfection.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹200</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHICKEN QUESADILLA</h4>
+                                        <p class="card-text label-1">Grilled flour tortilla filled with shredded
+                                            chicken, sautéed veggies, and melted cheese.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹240</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- SALAD CATEGORY -->
+                    <div class="menu-category" data-category="salad">
+                        <div class="category-header">
+                            <h3 class="headline-2">
+                                <ion-icon name="leaf-outline"></ion-icon>
+                                <span>Salad</span>
+                            </h3>
+                            <div class="category-badge" style="background: #4CAF50;">Fresh</div>
+                        </div>
+
+                        <ul class="menu-grid">
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">MIX FRUIT SALAD</h4>
+                                        <p class="card-text label-1">A fresh mix of seasonal fruits with a hint of
+                                            citrus.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹130</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CAESAR SALAD</h4>
+                                        <p class="card-text label-1">Fresh romaine lettuce tossed with parmesan,
+                                            croutons, mustard mayo.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹150</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">BEETROOT SALAD</h4>
+                                        <p class="card-text label-1">Earthy boiled and roasted beetroot with a light
+                                            dressing.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹100</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">GREEK SALAD</h4>
+                                        <p class="card-text label-1">Tomatoes, garlic, basil, roasted tomatoes, onions
+                                            and green bell peppers sprinkled with feta-cheese.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹230</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- OVEN TOASTED BREADS CATEGORY -->
+                    <div class="menu-category" data-category="breads">
+                        <div class="category-header">
+                            <h3 class="headline-2">
+                                <ion-icon name="bonfire-outline"></ion-icon>
+                                <span>Oven Toasted Breads</span>
+                            </h3>
+                            <div class="category-badge" style="background: #FF9800;">Crispy</div>
+                        </div>
+
+                        <ul class="menu-grid">
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHEESE GARLIC BREAD</h4>
+                                        <p class="card-text label-1">Slices of bread topped with butter, garlic and
+                                            cheese.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹150</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">MASALA GARLIC BREAD 🌶️</h4>
+                                        <p class="card-text label-1">Toasty sliced bread with butter, herbs, Italian
+                                            herbs & chillies.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹140</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHICKEN GARLIC BREAD</h4>
+                                        <p class="card-text label-1">Slices of bread with butter, garlic & loaded with
+                                            minced chicken.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹200</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- PIZZA CATEGORY -->
+                    <div class="menu-category" data-category="pizza">
+                        <div class="category-header">
+                            <h3 class="headline-2">
+                                <ion-icon name="pizza-outline"></ion-icon>
+                                <span>Pizza (VEG / Non-Veg) - 10"</span>
+                            </h3>
+                            <div class="category-badge" style="background: #E91E63;">Bestseller</div>
+                        </div>
+
+                        <ul class="menu-grid">
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">MARGHERITA PIZZA</h4>
+                                        <p class="card-text label-1">With tomato sauce, mozzarella cheese.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹210</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹240</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">FARM FRESH PIZZA 🌱</h4>
+                                        <p class="card-text label-1">Spicy tomato sauce, grilled onions & BBQ sauce.</p>
+                                    </div>
+                                    <span class="menu-price title-2">₹250</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">SICILIA PIZZA 🌶️</h4>
+                                        <p class="card-text label-1">Spicy tomato sauce, capsicum, chilli oil.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹250</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹280</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">MARGHERITA MEXICANA 🇲🇽</h4>
+                                        <p class="card-text label-1">Tangy tomato sauce, capsicum, olives, onion.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹240</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹280</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">PARADISE 🌶️</h4>
+                                        <p class="card-text label-1">Spicy tomato sauce with mushroom - olives,
+                                            jalapeños.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹295</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹320</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">NAPOLI</h4>
+                                        <p class="card-text label-1">Spicy tomato sauce, fresh cheese - eggplant, onion
+                                            - chilli oil.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹270</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹320</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">MILANO PIZZA 🧀</h4>
+                                        <p class="card-text label-1">White sauce, mozzarella, jalapeños, ranch, bell
+                                            peppers.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹320</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹350</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">CHEF SPECIAL PIZZA 🌶️</h4>
+                                        <p class="card-text label-1">Tomato sauce, mushroom, fresh cheeses, zucchini,
+                                            sweet corn, mushroom & olives.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹400</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹430</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="menu-item-card">
+                                    <div class="menu-item-info">
+                                        <h4 class="title-3">GOLDEN DELIGHT PIZZA</h4>
+                                        <p class="card-text label-1">Golden sauce base, topped with BBQ baby potato,
+                                            cheese, onions, capsicum and Italian herbs.</p>
+                                    </div>
+                                    <div class="menu-price-group">
+                                        <span class="menu-price-label">Veg:</span>
+                                        <span class="menu-price title-2">₹400</span>
+                                        <span class="menu-price-label">Non-Veg:</span>
+                                        <span class="menu-price title-2">₹430</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- Pizza Add-ons -->
+                        <div class="addons-section">
+                            <h4 class="title-4">Add-ons:</h4>
+                            <div class="addons-grid">
+                                <div class="addon-item">
+                                    <span>MUSHROOM</span>
+                                    <span class="addon-price">₹40</span>
+                                </div>
+                                <div class="addon-item">
+                                    <span>CHEESE</span>
+                                    <span class="addon-price">₹30</span>
+                                </div>
+                                <div class="addon-item">
+                                    <span>Broccoli</span>
+                                    <span class="addon-price">₹40</span>
+                                </div>
+                                <div class="addon-item">
+                                    <span>Jalapenos</span>
+                                    <span class="addon-price">₹25</span>
+                                </div>
+                                <div class="addon-item">
+                                    <span>Onion</span>
+                                    <span class="addon-price">₹20</span>
+                                </div>
+                                <div class="addon-item">
+                                    <span>CHICKEN</span>
+                                    <span class="addon-price">₹40</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 
+        - #CTA
+      -->
+
+            <section class="section cta-section">
+                <div class="container">
+                    <div class="cta-card">
+                        <h2 class="headline-1">Can't decide?</h2>
+                        <p class="body-2">Let our chef recommend the perfect dish for you</p>
+                        <a href="tel:+919585555486" class="btn btn-primary">
+                            <span class="text text-1">Call Now</span>
+                            <span class="text text-2" aria-hidden="true">Call Now</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer section has-bg-image text-center"
+        style="background-image: url('./assets/images/footer-bg.jpg')">
+        <div class="container">
+
+            <div class="footer-top grid-list">
+
+                <div class="footer-brand has-before has-after">
+
+                    <a href="#" class="logo">
+                        <img src="./assets/images/f&k.png" width="160" height="50" loading="lazy"
+                            alt="Fork & Knife home">
+                    </a>
+
+                    <address class="body-4">
+                        1-4, PPS Colony, Anna Nagar, Coimbatore 641004
+                    </address>
+
+                    <a href="mailto:fork&knife@gmail.com" class="body-4 contact-link">fork&knife@gmail.com</a>
+
+                    <a href="tel:+919585555486" class="body-4 contact-link">Booking Request : +91 95855 55486</a>
+
+                    <p class="body-4">
+                        Open : 09:00 am - 01:00 pm
+                    </p>
+
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+
+                    <p class="title-1">Get News & Offers</p>
+
+                    <p class="label-1">
+                        Subscribe us & Get <span class="span">25% Off.</span>
+                    </p>
+
+                    <form action="" class="input-wrapper">
+                        <div class="icon-wrapper">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                            <input type="email" name="email_address" placeholder="Your email" autocomplete="off"
+                                class="input-field">
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">
+                            <span class="text text-1">Subscribe</span>
+
+                            <span class="text text-2" aria-hidden="true">Subscribe</span>
+                        </button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p class="copyright">
+                    &copy; 2024 Fork & Knife. All Rights Reserved
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - mobile app interface js
+  -->
+    <script src="./assets/js/mobile-app.js"></script>
+
+    <!-- 
+    - menu page js
+  -->
+    <script src="./assets/js/menu.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
