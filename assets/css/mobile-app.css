@@ -307,20 +307,6 @@
     display: block !important;
     margin-top: 8px !important;
     margin-bottom: 8px !important;
-    font-size: 18px !important;
-    color: var(--mobile-accent) !important;
-    font-weight: bold !important;
-  }
-
-  /* ========== FOOTER HIDDEN ========== */
-  footer {
-    display: none !important;
-  }
-
-  /* ========== TEXT COLORS ========== */
-  .section-title,
-  .headline-1,
-  .headline-2 {
     color: var(--mobile-text) !important;
   }
 

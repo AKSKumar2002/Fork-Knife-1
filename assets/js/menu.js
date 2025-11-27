@@ -150,7 +150,16 @@ function handleHashNavigation() {
             'quick-bites': 'quickbites',
             'salad': 'salad',
             'breads': 'breads',
-            'pizza': 'pizza'
+            'pizza': 'pizza',
+            'pasta': 'pasta',
+            'chinese': 'chinese',
+            'sandwich': 'sandwich',
+            'mocktail': 'mocktail',
+            'falooda': 'falooda',
+            'mojito': 'mojito',
+            'freshjuice': 'freshjuice',
+            'milkshake': 'milkshake',
+            'dessert': 'dessert'
         };
 
         const filter = filterMap[hash];
