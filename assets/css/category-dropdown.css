@@ -1,0 +1,168 @@
+/* Category Dropdown Styles - Compact & Theme-Matched */
+
+/* Adjust hero content padding for better spacing */
+.menu-hero-content {
+    padding-top: 40px !important;
+}
+
+/* Hide broken images on desktop */
+@media (min-width: 769px) {
+    .preload {
+        display: none !important;
+    }
+
+    .menu-hero-bg img {
+        display: none !important;
+    }
+}
+
+/* Reduce gap between hero and menu section - TIGHTENED */
+.menu-section {
+    padding-top: 10px !important;
+    margin-top: -60px !important;
+}
+
+.menu-section .container {
+    padding-top: 0 !important;
+}
+
+.menu-section .section-title {
+    margin-top: 0 !important;
+    margin-bottom: 15px !important;
+}
+
+/* ========== CATEGORY DROPDOWN SELECTOR ========== */
+.category-dropdown-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 15px auto 35px;
+    max-width: 350px;
+    padding: 0;
+}
+
+.dropdown-label {
+    color: var(--gold-crayola);
+    font-family: var(--fontFamily-forum), serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+}
+
+.category-dropdown {
+    flex: 1;
+    min-width: 180px;
+    padding: 10px 35px 10px 15px;
+    background: linear-gradient(145deg, #1e1e1e, #161616);
+    border: 1px solid var(--gold-crayola);
+    border-radius: 5px;
+    color: var(--gold-crayola);
+    font-family: var(--fontFamily-dm_sans);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c9ab81' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+.category-dropdown:hover {
+    background: linear-gradient(145deg, #252525, #1a1a1a);
+    border-color: var(--gold-crayola);
+    box-shadow: 0 0 15px rgba(201, 171, 129, 0.25);
+}
+
+.category-dropdown:focus {
+    border-color: var(--gold-crayola);
+    box-shadow: 0 0 20px rgba(201, 171, 129, 0.3);
+}
+
+/* Style dropdown options - CRITICAL for theming */
+.category-dropdown option {
+    background-color: #1a1a1a !important;
+    color: #a0a0a0 !important;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.category-dropdown option:hover {
+    background-color: #252525 !important;
+    color: var(--gold-crayola) !important;
+}
+
+.category-dropdown option:checked {
+    background: linear-gradient(135deg, var(--gold-crayola), #b8935a) !important;
+    color: #000 !important;
+    font-weight: 600;
+}
+
+/* Mobile responsive - COMPACT DESIGN */
+@media (max-width: 768px) {
+    .menu-section {
+        padding-top: 5px !important;
+        margin-top: -40px !important;
+    }
+
+    .category-dropdown-wrapper {
+        flex-direction: row;
+        gap: 10px;
+        padding: 0 15px;
+        max-width: 100%;
+        margin: 15px auto 30px;
+    }
+
+    .dropdown-label {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .category-dropdown {
+        min-width: 0;
+        max-width: 200px;
+        font-size: 12px;
+        padding: 9px 32px 9px 12px;
+        background-position: right 10px center;
+        background-size: 14px;
+    }
+
+    .category-dropdown option {
+        font-size: 12px !important;
+        padding: 10px 12px;
+    }
+}
+
+/* Tablet responsive */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .category-dropdown-wrapper {
+        max-width: 320px;
+    }
+
+    .category-dropdown {
+        font-size: 12px;
+    }
+}
+
+/* Desktop large screens */
+@media (min-width: 1440px) {
+    .category-dropdown-wrapper {
+        max-width: 380px;
+    }
+
+    .dropdown-label {
+        font-size: 14px;
+    }
+
+    .category-dropdown {
+        font-size: 14px;
+    }
+}
