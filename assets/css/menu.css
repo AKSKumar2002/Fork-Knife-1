@@ -110,6 +110,8 @@
 .menu-category {
     margin-bottom: 80px;
     animation: fadeInUp 0.6s ease;
+    content-visibility: auto;
+    contain-intrinsic-size: 1000px;
 }
 
 .menu-category.hidden {
