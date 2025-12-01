@@ -41,6 +41,41 @@
     /* Adjust based on header height */
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+    /* Prevents browser bounce */
+    user-select: none;
+    /* App-like feel, prevent accidental text selection */
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  /* Allow text selection only on specific elements if needed */
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span {
+    user-select: text;
+  }
+
+  /* Premium Text Selection */
+  ::selection {
+    background: var(--mobile-accent);
+    color: #000;
   }
 
   main {

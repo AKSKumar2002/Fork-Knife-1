@@ -1,9 +1,15 @@
 {
   "name": "Fork & Knife",
   "short_name": "Fork&Knife",
+  "description": "Experience the finest dining at Fork & Knife. Book tables, view menus, and enjoy premium service.",
+  "categories": [
+    "food",
+    "lifestyle",
+    "shopping"
+  ],
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#121212",
+  "background_color": "#1e1e1e",
   "theme_color": "#1e1e1e",
   "orientation": "portrait",
   "icons": [
